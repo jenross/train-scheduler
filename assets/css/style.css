@@ -1,3 +1,51 @@
 * {
     box-sizing: border-box; 
 }
+
+body {
+    background: url('../images/train-station.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jumbotron {
+    background-color: rosybrown;
+    border: 1px groove lightgrey;
+}
+
+.lead {
+    font-style: italic;
+}
+
+.disp-schedule {
+    background-color: #4D6782;
+    border: 1px groove lightgrey;
+}
+
+.disp-schedule-header {
+    font-weight: bold; 
+    font-size: 25px; 
+    background-color: lightgrey; 
+}
+
+.card-header {
+    background-color: lightgrey;
+}
+
+.submit-container {
+    background-color: #C48D55;
+    border: 1px groove lightgrey;
+}
+
+.table-header, label {
+    font-weight: bold; 
+    font-size: 16px; 
+}
+
+.footer-text {
+    display: block; 
+    color: #C48D55;
+}

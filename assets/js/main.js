@@ -24,6 +24,11 @@ let minutesAway = '';
 $('.btn-primary').on('click', function(event) {
   event.preventDefault();
 
+  // $('#inputTrain').val(''); 
+  // $('#inputDestination').val('');
+  // $('#inputFrequency').val('');
+  // $('#inputTime').val('');
+
   train = $('#inputTrain').val().trim(); 
   destination = $('#inputDestination').val().trim();
   frequency = $('#inputFrequency').val().trim(); 
@@ -38,7 +43,6 @@ $('.btn-primary').on('click', function(event) {
     minutesAway,
     dateAdded: firebase.database.ServerValue.TIMESTAMP
   });
-
 });
 
 dataRef.ref().on("child_added", function(childSnapshot) {

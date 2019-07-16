@@ -2,3 +2,6 @@
 displayed in current train schedule table 
 2. Thinking will need to use moment.js to update next arrival and minutes away 
 3. dynamically generate new table items on submit click 
+
+Styling 
+

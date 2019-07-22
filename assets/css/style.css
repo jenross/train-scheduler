@@ -25,19 +25,26 @@ body {
     border: 1px groove lightgrey;
 }
 
-.disp-schedule-header {
+.disp-schedule-header, .add-train-header {
     font-weight: bold; 
     font-size: 25px; 
-    background-color: lightgrey; 
-}
-
-.card-header {
-    background-color: lightgrey;
+    background-color: 	#E8E8E8;
+    border-radius: 5px; 
 }
 
 .submit-container {
     background-color: #C48D55;
     border: 1px groove lightgrey;
+}
+
+.btn-primary {
+    background-color: #E8E8E8;
+    border: #E8E8E8;  
+    color: black; 
+}
+
+.btn-primary:hover {
+    background-color: #4D6782;
 }
 
 .table-header, label {
@@ -48,4 +55,6 @@ body {
 .footer-text {
     display: block; 
     color: #C48D55;
+    font-style: italic;
+    font-weight: bold; 
 }
